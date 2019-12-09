@@ -1,2 +1,2 @@
-# lynx-magnus-web
+# Lynx Magnus
 Portfolio project for John Watson

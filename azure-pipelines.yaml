@@ -16,8 +16,8 @@ steps:
     SonarQube: 'SonarQube'
     scannerMode: 'CLI'
     configMode: 'manual'
-    cliProjectKey: 'mine-support-claim-service'
-    cliProjectName: 'mine-support-claim-service'
+    cliProjectKey: 'lynx-magnus-web'
+    cliProjectName: 'lynx-magnus-web'
     cliSources: '.'
 
 - task: SonarQubeAnalyze@4

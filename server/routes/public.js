@@ -6,7 +6,8 @@ module.exports = [{
       path: [
         'server/public/css',
         'server/public/scripts',
-        'server/public/assets'
+        'server/public/assets',
+        'server/public/images'
       ]
     }
   }

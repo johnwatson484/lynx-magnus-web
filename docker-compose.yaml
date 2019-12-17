@@ -7,9 +7,3 @@ services:
     command: npm run start:watch
     ports:
       - "3000:3000"
-    volumes:
-      - node_modules:/usr/src/app/node_modules
-      - .:/usr/src/app
-
-volumes:
-  node_modules:

@@ -19,12 +19,15 @@ steps:
     cliProjectKey: 'lynx-magnus-web'
     cliProjectName: 'lynx-magnus-web'
     cliSources: '.'
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
 
 - task: SonarQubeAnalyze@4
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
 
 - task: SonarQubePublish@4
   inputs:
     pollingTimeoutSec: '300'
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     
 - task: NodeTool@0
   inputs:

@@ -4,6 +4,5 @@ services:
     build: .
     image: lynx-magnus
     container_name: lynx-magnus
-    command: npm run start:watch
     ports:
       - "3000:3000"

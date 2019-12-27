@@ -6,6 +6,7 @@
     <title>{{ appName }}</title>
     <link rel="icon" type="image/x-icon" href="{{ assetPath }}/favicon.ico" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="{{ assetPath }}/site.css" rel="stylesheet" />
   </head>
 
@@ -13,7 +14,7 @@
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="/">{{ appName }}</a>
     </nav>
-    <div class="container">
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column background-fade text-center">
       {% block content %}
       {% endblock %}
     </div>

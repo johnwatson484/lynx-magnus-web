@@ -18,10 +18,4 @@ docker-compose build
 docker-compose up
 ```
 
-## Develop application in container
-```
-docker-compose -f docker-compose.yaml -f docker-compose.development.yaml build
-docker-compose -f docker-compose.yaml -f docker-compose.development.yaml up
-```
-
 Local changes to code files will automatically trigger a restart of the application within the container.

@@ -1,10 +1,11 @@
 version: '3.7'
 services:
   lynx-magnus:   
-    environment:
-      NODE_ENV: development 
+    build: 
+      context: .
+      target: development
+    ports:
+      - "3000:3000"
     volumes:
-      - ./server/:/usr/src/app/server/
-      - ./index.js:/usr/src/app/index.js
-      - ./package.json:/usr/src/app/package.json
-    command: npm run start:watch
+      - ./app:/node/app
+      - ./package.json:/node/package.json

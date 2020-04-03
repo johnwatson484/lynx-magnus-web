@@ -4,10 +4,10 @@ module.exports = [{
   handler: {
     directory: {
       path: [
-        'server/public/css',
-        'server/public/scripts',
-        'server/public/assets',
-        'server/public/images'
+        'app/public/css',
+        'app/public/scripts',
+        'app/public/assets',
+        'app/public/images'
       ]
     }
   }

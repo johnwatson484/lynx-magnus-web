@@ -1,0 +1,8 @@
+{{- include "helm-library.deployment" (list . "lynx-magnus-web.deployment") -}}
+{{- define "lynx-magnus-web.deployment" -}}
+spec:
+  template:
+    spec:
+      containers:
+      - {{ include "helm-library.container" (list . "lynx-magnus-web.container") }}
+{{- end -}}

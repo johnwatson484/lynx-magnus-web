@@ -1,8 +1,3 @@
-trigger:
-- master
-
-pr: none
-
 resources:
   repositories:
   - repository: templates
@@ -12,12 +7,9 @@ resources:
 
 variables:
   repo: lynx-magnus-web
-  helmRepo: helm-charts
-  helmRepositoryUrl: git@github.com:johnwatson484/helm-charts.git
-  version:
   containerRepository: johnwatson484/lynx-magnus-web
   helmChartPath: helm/lynx-magnus-web
-  releaseExists: false
 
-jobs:
-  - template: build.yaml@templates
+
+extends:
+  template: build.yaml@templates

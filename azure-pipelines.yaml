@@ -11,10 +11,10 @@ resources:
     endpoint: John D Watson
     name: johnwatson484/azure-devops-templates
 
-variables:
-  repo: lynx-magnus-web
-  containerRepository: johnwatson484/lynx-magnus-web
-  helmChartPath: helm/lynx-magnus-web
-
 extends:
   template: build.yaml@templates
+  parameters:
+    repo: lynx-magnus-web
+    containerRepository: johnwatson484/lynx-magnus-web
+    helmChartPath: helm/lynx-magnus-web
+    

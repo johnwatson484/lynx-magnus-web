@@ -1,6 +1,5 @@
 trigger:
   - master
-  - main
 
 pr: none
 
@@ -15,6 +14,3 @@ extends:
   template: build.yaml@templates
   parameters:
     repo: lynx-magnus-web
-    containerRepository: johnwatson484/lynx-magnus-web
-    helmChartPath: helm/lynx-magnus-web
-    

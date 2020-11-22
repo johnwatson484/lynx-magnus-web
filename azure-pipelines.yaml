@@ -1,3 +1,8 @@
+trigger:
+- master
+
+pr: none
+
 resources:
   repositories:
   - repository: templates
@@ -16,4 +21,3 @@ variables:
 
 jobs:
   - template: build.yaml@templates
-      

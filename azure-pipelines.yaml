@@ -1,3 +1,9 @@
+trigger:
+  - master
+  - main
+
+pr: none
+
 resources:
   repositories:
   - repository: templates
@@ -9,7 +15,6 @@ variables:
   repo: lynx-magnus-web
   containerRepository: johnwatson484/lynx-magnus-web
   helmChartPath: helm/lynx-magnus-web
-
 
 extends:
   template: build.yaml@templates

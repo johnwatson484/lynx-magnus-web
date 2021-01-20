@@ -11,4 +11,10 @@ module.exports = [{
       ]
     }
   }
+}, {
+  method: 'GET',
+  path: '/app-ads.txt',
+  handler: function (request, h) {
+    return h.file('app/public/assets/app-ads.txt')
+  }
 }]

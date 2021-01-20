@@ -1,6 +1,6 @@
 {
-  "name": "hapi-template",
-  "version": "1.0.8",
+  "name": "lynx-magnus-web",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {

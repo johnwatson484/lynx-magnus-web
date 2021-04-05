@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>{{ appName }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ assetPath }}/favicon.ico" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="{{ assetPath }}/site.css" rel="stylesheet" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ appName }}</title>
+  <link rel="icon" type="image/x-icon" href="{{ assetPath }}/favicon.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="{{ assetPath }}/site.css" rel="stylesheet" />
+</head>
 
-  <body class="{{ location }}">
-    <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="/">{{ appName }}</a>
-    </nav>
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column background-fade text-center">
-      {% block content %}
-      {% endblock %}
-    </div>
-    {% block bodyEnd %}
-      <script src="{{ assetPath }}/application.js"></script>
+<body class="{{ location }}">
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">{{ appName }}</a>
+  </nav>
+  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column background-fade text-center">
+    {% block content %}
     {% endblock %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-66368319-2', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
+  </div>
+  {% block bodyEnd %}
+  <script src="{{ assetPath }}/application.js"></script>
+  {% endblock %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S3BEZNS42R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {dataLayer.push(arguments)}
+    gtag('js', new Date())
+
+    gtag('config', 'G-S3BEZNS42R')
+  </script>
+</body>
 
 </html>
-
-

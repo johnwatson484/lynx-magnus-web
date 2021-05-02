@@ -14,7 +14,7 @@ container:
   readOnlyRootFilesystem: false
   allowPrivilegeEscalation: false
   port: 3000
-  skywalkingCollectorAddress: http://skywalking-oap.skywalking:11800
+  skywalkingCollectorAddress: http://skywalking-oap.skywalking.svc.cluster.local:11800
 
 ingress:
   class: nginx

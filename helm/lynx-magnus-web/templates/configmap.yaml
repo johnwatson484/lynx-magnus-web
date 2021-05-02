@@ -3,8 +3,4 @@
 data:
   NODE_ENV: {{ quote .Values.environment }}
   PORT: {{ quote .Values.container.port }}
-  SW_AGENT_NAME: {{ quote .Values.name}}
-  {{- if .Values.container.skywalkingCollectorAddress }}
-  SW_AGENT_COLLECTOR_BACKEND_SERVICES: {{ quote .Values.container.skywalkingCollectorAddress }}
-  {{- end }}
 {{- end -}}

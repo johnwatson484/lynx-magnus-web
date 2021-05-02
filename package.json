@@ -1,6 +1,6 @@
 {
   "name": "lynx-magnus-web",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,6 @@
     "blipp": "^4.0.1",
     "nodemon": "^2.0.1",
     "nunjucks": "^3.2.1",
-    "skywalking-backend-js": "^0.2.0",
     "standard": "^14.3.1"
   }
 }

@@ -1,6 +1,6 @@
-version: '3.7'
+version: '3.8'
 services:
-  lynx-magnus:   
+  lynx-magnus:
     build: 
       context: .
       target: development

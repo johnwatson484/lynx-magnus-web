@@ -7,5 +7,5 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./app:/node/app
-      - ./package.json:/node/package.json
+      - ./app:/home/node/app
+      - ./package.json:/home/node/package.json

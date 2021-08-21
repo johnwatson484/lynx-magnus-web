@@ -5,14 +5,14 @@
 # Lynx Magnus
 Root website for hosting and privacy policies.
 
-# Prerequisites
+## Prerequisites
 - Docker
 - Docker Compose
 
-# Running the application
+## Running the application
 The application is intended to be run and developed within a container.  A set of docker-compose files exist to support this.
 
-## Run application in container
+### Run application in container
 The application will be accessible on port `3000`.
 
 ```

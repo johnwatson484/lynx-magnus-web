@@ -1,4 +1,6 @@
 [![Build Status](https://johnwatson484.visualstudio.com/John%20D%20Watson/_apis/build/status/Lynx%20Magnus%20Web?branchName=master)](https://johnwatson484.visualstudio.com/John%20D%20Watson/_build/latest?definitionId=29&branchName=master)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=johnwatson484_lynx-magnus-web&metric=alert_status)](https://sonarcloud.io/dashboard?id=johnwatson484_lynx-magnus-web)
+[![Known Vulnerabilities](https://snyk.io/test/github/johnwatson484/lynx-magnus-web/badge.svg)](https://snyk.io/test/github/johnwatson484/lynx-magnus-web)
 
 # Lynx Magnus
 Root website for hosting and privacy policies.

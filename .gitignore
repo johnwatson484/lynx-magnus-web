@@ -351,3 +351,5 @@ MigrationBackup/
 
 *.lock
 *.tgz
+
+production-values.yaml

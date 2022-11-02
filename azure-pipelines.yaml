@@ -9,8 +9,12 @@ resources:
     type: github
     endpoint: John D Watson
     name: johnwatson484/azure-devops-templates
+    ref: refs/tags/1
 
 extends:
   template: build.yaml@templates
   parameters:
-    repo: lynx-magnus-web
+    name: lynx-magnus-web
+    deploy: true
+    namespace: lynx-magnus
+    hasSecureHelmValuesFile: true

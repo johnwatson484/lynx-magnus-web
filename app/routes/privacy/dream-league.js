@@ -1,6 +1,6 @@
 module.exports = [{
   method: 'GET',
-  path: '/privacy/teampicker',
+  path: '/privacy/dreamleague',
   handler: (_request, h) => {
     return h.view('privacy/team-picker')
   }

@@ -1,6 +1,6 @@
 {
   "name": "lynx-magnus-web",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,8 @@
   },
   "devDependencies": {
     "blipp": "4.0.2",
-    "nodemon": "3.1.0",
-    "standard": "16.0.4"
+    "eslint": "9.7.0",
+    "neostandard": "0.11.1",
+    "nodemon": "3.1.0"
   }
 }

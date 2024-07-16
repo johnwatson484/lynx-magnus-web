@@ -11,6 +11,6 @@ module.exports = {
     name: 'router',
     register: (server, options) => {
       server.route(routes)
-    }
-  }
+    },
+  },
 }

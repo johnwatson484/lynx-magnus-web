@@ -8,10 +8,10 @@ async function createServer () {
     routes: {
       validate: {
         options: {
-          abortEarly: false
-        }
-      }
-    }
+          abortEarly: false,
+        },
+      },
+    },
   })
 
   // Register the plugins

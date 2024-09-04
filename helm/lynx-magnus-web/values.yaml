@@ -9,6 +9,7 @@ container:
   limitCpu: 60m
   port: 3000
 
-ingress: {}
+ingress:
+  host: lynx-magnus.com
 
 deployment: {}

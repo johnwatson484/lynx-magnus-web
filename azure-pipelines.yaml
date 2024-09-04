@@ -17,4 +17,3 @@ extends:
     name: lynx-magnus-web
     deploy: true
     namespace: lynx-magnus
-    hasSecureHelmValuesFile: true

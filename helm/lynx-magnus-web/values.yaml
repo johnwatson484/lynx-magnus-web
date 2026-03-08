@@ -1,13 +1,13 @@
-environment: production
-name: lynx-magnus-web
-image: lynx-magnus-web
-
 container:
+  image: lynx-magnus-web
   requestMemory: 60Mi
   requestCpu: 60m
   limitMemory: 60Mi
   limitCpu: 60m
   port: 3000
+
+configMap:
+  environment: production
 
 ingress:
   host: lynx-magnus.com

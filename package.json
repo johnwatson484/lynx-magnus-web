@@ -1,6 +1,6 @@
 {
   "name": "lynx-magnus-web",
-  "version": "1.4.10",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@hapi/boom": "9.1.4",
-    "@hapi/hapi": "20.2.1",
+    "@hapi/hapi": "21.4.8",
     "@hapi/inert": "6.0.4",
     "@hapi/joi": "16.1.8",
     "@hapi/vision": "6.1.0",

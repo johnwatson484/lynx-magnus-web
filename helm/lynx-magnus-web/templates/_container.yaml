@@ -1,2 +1,0 @@
-{{- define "lynx-magnus-web.container" -}}
-{{- end -}}

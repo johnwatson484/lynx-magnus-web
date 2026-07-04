@@ -5,6 +5,9 @@ async function createServer () {
   // Create the hapi server
   const server = hapi.server({
     port: config.port,
+    router: {
+      stripTrailingSlash: true,
+    },
     routes: {
       validate: {
         options: {
